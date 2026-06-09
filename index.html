@@ -1,0 +1,232 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tipped Support</title>
+
+<style>
+:root {
+    --primary: #0A84FF;
+    --text: #1d1d1f;
+    --secondary: #6e6e73;
+    --background: #f5f5f7;
+    --card: #ffffff;
+    --border: #e5e5e7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display",
+                 "Segoe UI", sans-serif;
+    background: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px 50px;
+}
+
+.app-icon {
+    width: 88px;
+    height: 88px;
+    border-radius: 22px;
+    background: linear-gradient(135deg, #0A84FF, #5AC8FA);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    color: white;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 30px rgba(10,132,255,0.25);
+}
+
+h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+
+.subtitle {
+    color: var(--secondary);
+    margin-top: 12px;
+    font-size: 1.1rem;
+}
+
+.card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 28px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+}
+
+h2 {
+    margin-bottom: 14px;
+    font-size: 1.3rem;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact-button {
+    display: inline-block;
+    margin-top: 15px;
+    background: var(--primary);
+    color: white;
+    padding: 12px 22px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    color: var(--secondary);
+    padding: 30px 0 20px;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero {
+        padding-top: 50px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <section class="hero">
+        <div class="app-icon">💰</div>
+        <h1>Tipped Support</h1>
+        <p class="subtitle">
+            Track tips, earnings, and income with confidence.
+        </p>
+    </section>
+
+    <div class="card">
+        <h2>Need Help?</h2>
+        <p>
+            Thanks for using <strong>Tipped</strong>. If you have questions,
+            feedback, feature requests, or need assistance with a subscription,
+            we're happy to help.
+        </p>
+
+        <a class="contact-button"
+           href="mailto:tippedsupport@appstudios.ai">
+            Contact Support
+        </a>
+    </div>
+
+    <div class="card">
+        <h2>Support Email</h2>
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:tippedsupport@appstudios.ai">
+                tippedsupport@appstudios.ai
+            </a>
+        </p>
+        <p>We typically respond within 24–48 hours.</p>
+    </div>
+
+    <div class="card">
+        <h2>Frequently Asked Questions</h2>
+
+        <ul>
+            <li>
+                <strong>How do I restore my subscription?</strong><br>
+                Open Tipped → Settings → Restore Purchases.
+            </li>
+
+            <li>
+                <strong>How do I cancel my subscription?</strong><br>
+                Subscription management is handled through your Apple ID
+                settings on your iPhone.
+            </li>
+
+            <li>
+                <strong>My data isn't showing up.</strong><br>
+                Ensure you're using the same Apple account and app version.
+                If the issue persists, contact support.
+            </li>
+
+            <li>
+                <strong>How do I report a bug?</strong><br>
+                Email us with a description of the issue, your device model,
+                and your iOS version.
+            </li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Privacy</h2>
+
+        <p>
+            Tipped is designed with privacy in mind. Your earnings and tip
+            information remain on your device unless otherwise stated in our
+            privacy policy.
+        </p>
+
+        <p>
+            Add your Privacy Policy link here:
+            <br>
+            <a href="#">
+                Privacy Policy
+            </a>
+        </p>
+    </div>
+
+    <div class="footer">
+        © 2026 Tipped • Built by AppStudios AI
+    </div>
+
+</div>
+
+</body>
+</html>
+```
